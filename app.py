@@ -1,7 +1,7 @@
 
 from cal import do_addition,do_sub
 from muliply import do_multipli
-
+from area import area_rec
 def main():
     
     print("welcome to te ar")
@@ -20,6 +20,9 @@ def main():
         
     elif user_input=="3":
         result=do_multipli(a,b)
+        
+    elif user_input=="4":
+        result=area_rec(a,b)
         
     print(result)
     
