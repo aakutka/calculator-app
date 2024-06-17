@@ -1,7 +1,7 @@
 
 from cal import do_addition,do_sub,do_dividion
 from muliply import do_multipli
-
+from area import area_rec
 def main():
     
     print("welcome to te ar")
